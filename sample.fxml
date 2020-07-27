@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane prefHeight="700.0" prefWidth="740.0" style="-fx-background-color: #F0F8FF; -fx-border-color: #000000;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="202.8" minWidth="10.0" prefWidth="143.59999999999997" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="317.6" minWidth="10.0" prefWidth="149.60000000000002" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="406.19998474121087" minWidth="10.0" prefWidth="150.59999999999997" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="415.4" minWidth="10.0" prefWidth="160.99999999999994" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="342.4" minWidth="10.0" prefWidth="155.79999999999995" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints maxHeight="137.40000381469727" minHeight="0.0" percentHeight="0.0" prefHeight="137.40000381469727" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="161.6" minHeight="10.0" prefHeight="42.999996185302734" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+        <RowConstraints maxHeight="86.80000000000001" minHeight="10.0" prefHeight="77.80000000000001" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="100.40000000000003" minHeight="10.0" prefHeight="78.40000000000003" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="123.39999999999998" minHeight="10.0" prefHeight="83.39999999999998" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="85.79999999999995" minHeight="10.0" prefHeight="85.79999999999995" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="73.39999999999998" minHeight="10.0" prefHeight="44.39999999999998" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+        <Button fx:id="eight" mnemonicParsing="false" prefHeight="77.0" prefWidth="120.0" text="0" textFill="#3912e5" GridPane.columnIndex="2" GridPane.rowIndex="3">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+        </Button>
+        <Button fx:id="two" layoutX="10.0" layoutY="12.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="120.0" text="0" textFill="#3912e5" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+        </Button>
+        <Button fx:id="twelve" layoutX="10.0" layoutY="12.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="120.0" text="0" textFill="#3912e5" GridPane.columnIndex="1" GridPane.rowIndex="4">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+        </Button>
+        <Button fx:id="sixteen" layoutX="10.0" layoutY="92.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="120.0" text="0" textFill="#3912e5" GridPane.rowIndex="5">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+        </Button>
+        <Button fx:id="eighteen" layoutX="130.0" layoutY="12.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="120.0" text="0" textFill="#3912e5" GridPane.columnIndex="2" GridPane.rowIndex="5">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+        </Button>
+        <Button fx:id="eleven" layoutX="130.0" layoutY="92.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="120.0" text="0" textFill="#3912e5" GridPane.rowIndex="4">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+        </Button>
+        <Button fx:id="six" layoutX="10.0" layoutY="12.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="120.0" text="0" textFill="#3912e5" GridPane.rowIndex="3">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+        </Button>
+        <Button fx:id="seven" layoutX="10.0" layoutY="12.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="120.0" text="0" textFill="#3912e5" GridPane.columnIndex="1" GridPane.rowIndex="3">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+        </Button>
+        <Button fx:id="nineteen" layoutX="130.0" layoutY="12.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="120.0" text="0" textFill="#3912e5" GridPane.columnIndex="3" GridPane.rowIndex="5">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+        </Button>
+        <Button fx:id="twentyThree" layoutX="130.0" layoutY="92.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="120.0" text="0" textFill="#3912e5" GridPane.columnIndex="2" GridPane.rowIndex="6">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+        </Button>
+        <Button fx:id="nine" layoutX="130.0" layoutY="252.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="120.0" text="0" textFill="#3912e5" GridPane.columnIndex="3" GridPane.rowIndex="3">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+        </Button>
+        <Button fx:id="twentyFour" layoutX="10.0" layoutY="12.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="120.0" text="0" textFill="#3912e5" GridPane.columnIndex="3" GridPane.rowIndex="6">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+        </Button>
+        <Button fx:id="fourteen" layoutX="10.0" layoutY="332.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="120.0" text="0" textFill="#3912e5" GridPane.columnIndex="3" GridPane.rowIndex="4">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+        </Button>
+        <Button fx:id="twentyTwo" layoutX="130.0" layoutY="172.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="120.0" text="0" textFill="#3912e5" GridPane.columnIndex="1" GridPane.rowIndex="6">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+        </Button>
+        <Button fx:id="twentyOne" layoutX="10.0" layoutY="252.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="120.0" text="0" textFill="#3912e5" GridPane.rowIndex="6">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+        </Button>
+        <Button fx:id="thirteen" layoutX="10.0" layoutY="92.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="120.0" text="0" textFill="#3912e5" GridPane.columnIndex="2" GridPane.rowIndex="4">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+        </Button>
+        <Button fx:id="fifteen" layoutX="250.0" layoutY="12.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="120.0" text="0" textFill="#3912e5" GridPane.columnIndex="4" GridPane.rowIndex="4">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+        </Button>
+        <Button fx:id="ten" layoutX="370.0" layoutY="92.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="120.0" text="0" textFill="#3912e5" GridPane.columnIndex="4" GridPane.rowIndex="3">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+        </Button>
+        <Button fx:id="seventeen" layoutX="370.0" layoutY="12.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="120.0" text="0" textFill="#3912e5" GridPane.columnIndex="1" GridPane.rowIndex="5">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+        </Button>
+        <Button fx:id="four" layoutX="250.0" layoutY="332.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="120.0" text="0" textFill="#3912e5" GridPane.columnIndex="3" GridPane.rowIndex="1">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+        </Button>
+        <Button fx:id="three" layoutX="250.0" layoutY="252.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="120.0" text="0" textFill="#3912e5" GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+        </Button>
+        <Button fx:id="five" layoutX="250.0" layoutY="172.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="120.0" text="0" textFill="#3912e5" GridPane.columnIndex="4" GridPane.rowIndex="1">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+        </Button>
+        <Button fx:id="twenty" layoutX="490.0" layoutY="92.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="120.0" text="0" textFill="#3912e5" GridPane.columnIndex="4" GridPane.rowIndex="5">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+        </Button>
+        <Button fx:id="twentyFive" layoutX="370.0" layoutY="12.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="120.0" text="0" textFill="#3912e5" GridPane.columnIndex="4" GridPane.rowIndex="6">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+        </Button>
+        <Label alignment="CENTER" prefHeight="140.0" prefWidth="738.0" style="-fx-background-color: #109e4e;" text="Find Largest Number" textFill="#202121" GridPane.columnSpan="5">
+            <font>
+                <Font name="System Bold Italic" size="33.0" />
+            </font>
+        </Label>
+        <Button fx:id="resetButton" mnemonicParsing="false" prefHeight="50.0" prefWidth="119.0" text="Reset game" GridPane.columnIndex="1" GridPane.rowIndex="7">
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+        <Button fx:id="startButton" mnemonicParsing="false" prefHeight="50.0" prefWidth="114.0" text="Start Game" GridPane.columnIndex="2" GridPane.rowIndex="7">
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+        <Button fx:id="nextLevelButton" mnemonicParsing="false" prefHeight="50.0" prefWidth="114.0" text="Next Level" GridPane.columnIndex="3" GridPane.rowIndex="7">
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+        <Label fx:id="scoreLabel" alignment="TOP_CENTER" prefHeight="86.0" prefWidth="126.0" text="Score" textFill="#e9ed0c" GridPane.columnIndex="4">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Button fx:id="scoreButton" blendMode="MULTIPLY" mnemonicParsing="false" prefHeight="26.0" prefWidth="126.0" text="0" textFill="#2b119e" GridPane.columnIndex="4">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+        <Label fx:id="correctButton" alignment="BOTTOM_CENTER" prefHeight="83.0" prefWidth="126.0" textFill="#dee80c" GridPane.columnIndex="4">
+            <font>
+                <Font name="System Bold Italic" size="18.0" />
+            </font>
+        </Label>
+        <Label fx:id="pressNext" alignment="BOTTOM_LEFT" prefHeight="133.0" prefWidth="238.0" textFill="#dee80c" GridPane.columnIndex="3" GridPane.columnSpan="2">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="level" alignment="BOTTOM_CENTER" prefHeight="138.0" prefWidth="119.0" textFill="#dee80c" GridPane.columnIndex="2">
+            <font>
+                <Font name="System Bold Italic" size="20.0" />
+            </font>
+        </Label>
+      <Button fx:id="one" alignment="CENTER" mnemonicParsing="false" prefHeight="77.0" prefWidth="120.0" text="0" textFill="#3912e5" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+      </Button>
+      <Label text="Time Left">
+         <font>
+            <Font name="Droid Sans" size="19.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="5.0" />
+         </GridPane.margin>
+      </Label>
+      <Button fx:id="timerButton" mnemonicParsing="false" prefHeight="26.0" prefWidth="51.0" text="0">
+         <GridPane.margin>
+            <Insets left="88.0" />
+         </GridPane.margin>
+      </Button>
+    </children>
+   <effect>
+      <SepiaTone />
+   </effect>
+</GridPane>
